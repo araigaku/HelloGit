@@ -2,7 +2,7 @@
 from unittest import TestCase
 import calc
 
-class TestCalc(unittest.TestCase):
+class TestCalc(TestCase):
 
 	def test_add_one(self):
 		self.assertEqual(calc.add_one(1),2)
