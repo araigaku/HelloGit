@@ -8,7 +8,7 @@ class TestCalc(TestCase):
 		self.assertEqual(calc.add_one(1),2)
 
 	def test_add_two(self):
-		self.assertEqual(calc.add_one(1),3)
+		self.assertEqual(calc.add_two(1),3)
 
 	def test_add_three(self):
-		self.assertEqual(calc.add_one(1),4)
+		self.assertEqual(calc.add_three(1),4)
